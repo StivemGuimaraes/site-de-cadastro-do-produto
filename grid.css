@@ -1,0 +1,110 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(imagens/predios.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.container{
+	display: grid;
+	grid-template-rows: 15vh 70vh 10vh;
+	grid-gap: 19px;
+}
+header{
+	background-color:#393232;
+}
+main{
+	background-color:white;
+	width: 50%;
+	height: 80%;
+	align-self:center;
+	justify-self:center; 
+	border:solid 5px #019FD3;
+	border-radius: 20px;
+	padding-top: 15px;
+
+}
+header p{
+	text-align: center;
+	font-size: 60px;
+	margin-bottom:20px;
+	margin:0;
+	margin-top:1%; 
+}
+#imagem{
+	margin-top: -135px;
+	float: left;
+	margin-left: 4%;
+}
+legend{
+	font-size: 25px;
+}
+#mao{
+	width: 24%;
+	margin-left: 2%;
+	outline: none;
+	border: solid #019FD3;
+	padding: 1px;
+	border-radius: 5px;
+}
+#des{
+	outline: none;
+    width:100%;
+    resize: none;
+    border: solid #019FD3;
+    border-radius: 5px;
+}
+fieldset{
+	padding-bottom:6%;
+}
+#kie{
+	margin-left: 2%;
+	outline: none;
+	border: solid #019FD3;
+	padding: 1px;
+	border-radius: 5px;
+
+}
+#botao{
+	outline: none;
+	padding: 6px;
+    margin-left:45%;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #209EB9;
+	
+}
+#imagem1{
+	margin-top: -30px;
+	position: absolute;
+}
+footer{
+	background-color: #393232;
+}
+footer p{
+	margin-left: 5%;
+	margin-top: 3%;
+}
+#twitter{
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 1%;
+}
+#facebook{
+	position: absolute;
+	margin-left: 55%;
+	margin-top: 1%;
+}
+#insert{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 1%;
+}
+#insta{
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 1%;
+}
+
